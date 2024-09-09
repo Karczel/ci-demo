@@ -1,7 +1,7 @@
 Continuous Integration Demo
 ===========================
 [![Run unit tests](https://github.com/Karczel/ci-demo/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Karczel/ci-demo/actions/workflows/unit-test.yml)
-[![Run unit tests](https://github.com/Karczel/ci-demo/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Karczel/ci-demo/actions/workflows/unit-test.yml)
+[![flake8 test](https://github.com/Karczel/ci-demo/actions/workflows/style-checking.yml/badge.svg)](https://github.com/Karczel/ci-demo/actions/workflows/style-checking.yml)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
