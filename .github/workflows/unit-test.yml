@@ -31,3 +31,13 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Run tests with coverage
+      run: |
+        coverage run --branch -m unittest
+    - name: Generate a plain text coverage report
+      run: |
+        coverage report
+    - name: Generate an HTML coverage report
+      run: |
+        coverage html
+
